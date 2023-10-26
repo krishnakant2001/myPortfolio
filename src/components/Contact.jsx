@@ -97,7 +97,7 @@ const Msg = styled.p`
 const Contact = () => {
   const ref = useRef();
 
-  const [success, setSuccess] = useState(true);
+  const [success, setSuccess] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
