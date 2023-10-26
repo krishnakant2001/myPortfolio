@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
+import MailIcon from '@mui/icons-material/Mail';
 
 const Section = styled.div`
   height: 100vh;
@@ -155,7 +155,7 @@ const Hero = (props) => {
               <GitHubIcon />
             </Icon>
             <Icon>
-              <AlternateEmailIcon onClick={props.onShowContact} />
+              <MailIcon onClick={props.onShowContact} />
             </Icon>
           </Link>
         </Left>

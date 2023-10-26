@@ -97,7 +97,7 @@ const Msg = styled.p`
 const Contact = () => {
   const ref = useRef();
 
-  const [success, setSuccess] = useState(null);
+  const [success, setSuccess] = useState(true);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -129,7 +129,7 @@ const Contact = () => {
             />
             <Button type="submit"><SendIcon/></Button>
             {success && (
-              <Msg>Your message has been send. We'll back to you soon !</Msg>
+              <Msg>Your message has been send. We'll get back to you soon !</Msg>
             )}
           </Form>
         </Right>
